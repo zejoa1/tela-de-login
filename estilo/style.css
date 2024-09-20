@@ -29,6 +29,7 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: width .3s, height .3s;
 }
 #ft{
     display: block;
