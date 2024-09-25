@@ -21,7 +21,7 @@ main{
     position: absolute;
     background-color: azure;
     width: 250px;
-    height: 500px;
+    height: 655px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.284);
@@ -60,12 +60,30 @@ form>a{
 }
 form>.campo{
     background-color: blueviolet;
+    font-size: 1em;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+form>.campo>input:focus-within{
+    background-color: aliceblue;
 }
 form>.campo>span{
-    height: 100%;
     color: aliceblue;
-    background-color: black;
-
+    
+    font-size: 2em;
+    width: 40px;
+    padding: 6px;
+    transform: translateY(5px);
+    
+}
+form>.campo>input{
+    background-color: blueviolet;
+    height: 25px;
+    border-radius: 8px;
+    padding: 4px;
+    width: calc(100%-50px);
+    transform: translateY(-6px);
+    
 }
 form>.campo>label{
     display: none;
@@ -78,6 +96,8 @@ form>input{
     border-radius: 10px;
     color: aliceblue;
     font-weight: bolder;
+    margin-top: 5px;
+
 
 }
 form>input:hover{

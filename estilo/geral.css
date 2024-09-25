@@ -5,8 +5,8 @@
         background-image: linear-gradient(to top, #c875c5, #61af99);
     }
     #login{
-        width: 70vw;
-        height: 40vh;
+        width: 60vw;
+        height: 48vh;
         
     }
     #texto{
@@ -19,13 +19,23 @@
         height: 100%;
         width: 50%;
     }
+    form>.campo>input{
+        background-color: blueviolet;
+        height: 20px;
+        border-radius: 8px;
+        padding: 4px;
+        width: calc(100% - 70px);
+        transform: translateY(-10px);
+      
+        
+    }
 }
 @media screen and (min-width: 992px){
     body{
         background-image: linear-gradient(to top, #c875c5, #61af99);
     }
     #login{
-        width: 80vw;
+        width: 60vw;
         height: 50vh;
     }
     #texto{
@@ -40,5 +50,12 @@
         width: 50%;
 
     }
-
-}
+    form>.campo>input{
+        background-color: blueviolet;
+        height: 20px;
+        border-radius: 8px;
+        padding: 4px;
+        width: calc(100% - 70px);
+        transform: translateY(-10px);
+    }
+}    
